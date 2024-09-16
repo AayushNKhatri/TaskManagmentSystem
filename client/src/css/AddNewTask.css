@@ -1,0 +1,26 @@
+
+.AddTaskForm{
+
+    display: flex;
+    justify-content: center;
+
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+input {
+    width: 100%;
+    min-width: 100px; 
+    box-sizing: border-box; 
+    padding: 4px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    transition: width 0.2s, border-color 0.2s;
+}
+
+input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none;
+}

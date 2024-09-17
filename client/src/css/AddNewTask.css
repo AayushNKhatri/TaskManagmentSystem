@@ -24,3 +24,18 @@ input:focus {
     border-color: #007bff; /* Highlight border on focus */
     outline: none;
 }
+.SubmitButton{
+    border: none;
+    padding: 4px 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.SubmitButton:hover {
+    background-color: #e69d0a; /* Green */
+    color: white;
+  }
+
+.SubmitButton:active{
+    background-color: #e69d0a;
+    padding: 2px 20px;
+}

@@ -12,6 +12,7 @@ function AddNewTask(){
 
                     <label for="TaskDesc">Task Description:</label>
                     <input type="text" name="taskdesc" id="taskdesc"/>
+                    <button type="submit" className="SubmitButton">Submit</button>
                 </form>
             </div>
         </div>

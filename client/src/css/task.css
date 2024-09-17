@@ -4,7 +4,7 @@
     justify-content: center;
 }
 .taskListbutton{
-    background-color: rgba(233, 216, 138, 0.934);
+   
     border: none;
     margin-left: 50px;
     padding: 4px 24px;
@@ -16,7 +16,14 @@
     color: white;
   }
 
-  .taskListbutton:active{
+.taskListbutton:active{
     background-color: #e69d0a;
     padding: 2px 20px;
+}
+.Task{
+    list-style: none;
+
+}
+.Task p{
+    margin-left: 50px;
 }
